@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+header {
+    border-bottom: 7px solid #66dfda;
+    height: 35vh;
+    position: relative;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 65vh;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    top: 92px;
+    font-size: 3rem;
+    background-image: linear-gradient(#c5c5c5, #3ef7d5);
+    color: transparent;
+    background-clip: text;
+}
+
+.btn-again {
+    width: 145px;
+    height: 64px;
+    position: absolute;
+    top: 1rem;
+    margin-left: 10px;
+    font-size: x-large;
+    color: #66dfda;
+    background: none;
+    border-radius: 24px;
+    font-family: 'Press Start 2P', sans-serif;
+    border: 2px solid;
+
+}
+
+.btn-again:hover {
+    color: black;
+    background-color: white;
+}
+
+.guess {
+    position: absolute;
+    text-align: right;
+    font-size: 20px;
+    top: 0;
+    right: 0rem;
+    padding: 11px 24px;
+    background-image: linear-gradient(#c5c5c5, #3ef7d5);
+    color: transparent;
+    background-clip: text;
+}
+
+.number {
+    width: 123px;
+    font-size: xxx-large;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 30px 0px;
+    transform: translate(-50%, 50%);
+    border-radius: 68px;
+    background-image: linear-gradient(#c5c5c5, #3ef7d5);
+}
+
+.add {
+    width: 14rem;
+    height: 80px;
+    margin-bottom: 23px;
+    text-align: center;
+    font-size: xxx-large;
+    border: 2px solid #66dfda;
+    border-radius: 26px;
+    background: none;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #66dfda;
+}
+
+.btn-check {
+    width: 9rem;
+    height: 3rem;
+    border-radius: 20px;
+    font-size: x-large;
+    color: #66dfda;
+    font-family: 'Press Start 2P', sans-serif;
+    background: none;
+    border: 2px solid;
+}
+
+.btn-check:hover {
+    color: black;
+    background-color: white;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 52rem;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 52rem;
+    background-image: linear-gradient(#c5c5c5, #3ef7d5);
+    color: transparent;
+    background-clip: text;
+
+}
+
+.start {
+    margin-bottom: 68px;
+    font-size: 1.5rem;
+}
+
+.score {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.high-score {
+    font-size: 20px;
+}
